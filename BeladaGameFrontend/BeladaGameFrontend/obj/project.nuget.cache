@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUxxTxlkkfU=",
+  "dgSpecHash": "q3yLaT4yT+o=",
   "success": true,
-  "projectFilePath": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj",
+  "projectFilePath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juerg\\.nuget\\packages\\blazor.bootstrap\\2.2.0\\blazor.bootstrap.2.2.0.nupkg.sha512",
     "C:\\Users\\juerg\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.5\\microsoft.aspnetcore.authorization.8.0.5.nupkg.sha512",

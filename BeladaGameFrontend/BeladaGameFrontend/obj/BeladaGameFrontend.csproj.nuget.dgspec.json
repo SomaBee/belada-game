@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj": {}
+    "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj": {}
   },
   "projects": {
-    "D:\\projects\\BeladaGame\\BeladaGameAPI\\BeladaGameAPI.csproj": {
+    "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameAPI\\BeladaGameAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\BeladaGame\\BeladaGameAPI\\BeladaGameAPI.csproj",
+        "projectUniqueName": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameAPI\\BeladaGameAPI.csproj",
         "projectName": "BeladaGameAPI",
-        "projectPath": "D:\\projects\\BeladaGame\\BeladaGameAPI\\BeladaGameAPI.csproj",
+        "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameAPI\\BeladaGameAPI.csproj",
         "packagesPath": "C:\\Users\\juerg\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\BeladaGame\\BeladaGameAPI\\obj\\",
+        "outputPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj": {
-                "projectPath": "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj"
+              "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj": {
+                "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj": {
+    "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj",
+        "projectUniqueName": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj",
         "projectName": "BeladaGameFrontend.Client",
-        "projectPath": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj",
+        "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj",
         "packagesPath": "C:\\Users\\juerg\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\obj\\",
+        "outputPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -116,8 +116,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj": {
-                "projectPath": "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj"
+              "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj": {
+                "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj"
               }
             }
           }
@@ -194,14 +194,14 @@
         }
       }
     },
-    "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj": {
+    "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj",
+        "projectUniqueName": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj",
         "projectName": "BeladaGameFrontend",
-        "projectPath": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj",
+        "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend\\BeladaGameFrontend.csproj",
         "packagesPath": "C:\\Users\\juerg\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\obj\\",
+        "outputPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -223,11 +223,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\projects\\BeladaGame\\BeladaGameAPI\\BeladaGameAPI.csproj": {
-                "projectPath": "D:\\projects\\BeladaGame\\BeladaGameAPI\\BeladaGameAPI.csproj"
+              "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameAPI\\BeladaGameAPI.csproj": {
+                "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameAPI\\BeladaGameAPI.csproj"
               },
-              "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj": {
-                "projectPath": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj"
+              "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj": {
+                "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj"
               }
             }
           }
@@ -284,14 +284,14 @@
         }
       }
     },
-    "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj": {
+    "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj",
+        "projectUniqueName": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj",
         "projectName": "ShardTypes",
-        "projectPath": "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj",
+        "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj",
         "packagesPath": "C:\\Users\\juerg\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\BeladaGame\\ShardTypes\\obj\\",
+        "outputPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Pr7fd0eN20=",
+  "dgSpecHash": "fN8YL23IV7I=",
   "success": true,
-  "projectFilePath": "D:\\projects\\BeladaGame\\BeladaGameAPI\\BeladaGameAPI.csproj",
+  "projectFilePath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameAPI\\BeladaGameAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juerg\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.5\\microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
     "C:\\Users\\juerg\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

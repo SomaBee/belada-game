@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BeladaGameAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59a07eca2a97faa11ffa555171bac41ff8fada67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b604967f21d8a396c05747d1108c514603c1c72")]
 [assembly: System.Reflection.AssemblyProductAttribute("BeladaGameAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BeladaGameAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

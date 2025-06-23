@@ -13,37 +13,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BeladaGameFrontend.Client
 build_property.RootNamespace = BeladaGameFrontend.Client
-build_property.ProjectDir = D:\projects\BeladaGame\BeladaGameFrontend\BeladaGameFrontend.Client\
+build_property.ProjectDir = C:\Users\juerg\Documents\GitHub\belada-game\BeladaGameFrontend\BeladaGameFrontend.Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\projects\BeladaGame\BeladaGameFrontend\BeladaGameFrontend.Client
+build_property.MSBuildProjectDirectory = C:\Users\juerg\Documents\GitHub\belada-game\BeladaGameFrontend\BeladaGameFrontend.Client
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/projects/BeladaGame/BeladaGameFrontend/BeladaGameFrontend.Client/Routes.razor]
+[C:/Users/juerg/Documents/GitHub/belada-game/BeladaGameFrontend/BeladaGameFrontend.Client/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/BeladaGame/BeladaGameFrontend/BeladaGameFrontend.Client/_Imports.razor]
+[C:/Users/juerg/Documents/GitHub/belada-game/BeladaGameFrontend/BeladaGameFrontend.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/BeladaGame/BeladaGameFrontend/BeladaGameFrontend.Client/Components/GameComponent.razor]
+[C:/Users/juerg/Documents/GitHub/belada-game/BeladaGameFrontend/BeladaGameFrontend.Client/Components/GameComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHYW1lQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-rt7iraotb5
 
-[D:/projects/BeladaGame/BeladaGameFrontend/BeladaGameFrontend.Client/Layout/MainLayout.razor]
+[C:/Users/juerg/Documents/GitHub/belada-game/BeladaGameFrontend/BeladaGameFrontend.Client/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ppq1cu4lgo
 
-[D:/projects/BeladaGame/BeladaGameFrontend/BeladaGameFrontend.Client/Pages/Admin.razor]
+[C:/Users/juerg/Documents/GitHub/belada-game/BeladaGameFrontend/BeladaGameFrontend.Client/Pages/Admin.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-pa7hea1vtk
 
-[D:/projects/BeladaGame/BeladaGameFrontend/BeladaGameFrontend.Client/Pages/Home.razor]
+[C:/Users/juerg/Documents/GitHub/belada-game/BeladaGameFrontend/BeladaGameFrontend.Client/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-2chydbp95r

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj",
+      "projectUniqueName": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj",
       "projectName": "ShardTypes",
-      "projectPath": "D:\\projects\\BeladaGame\\ShardTypes\\ShardTypes.csproj",
+      "projectPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\ShardTypes.csproj",
       "packagesPath": "C:\\Users\\juerg\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\BeladaGame\\ShardTypes\\obj\\",
+      "outputPath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\ShardTypes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

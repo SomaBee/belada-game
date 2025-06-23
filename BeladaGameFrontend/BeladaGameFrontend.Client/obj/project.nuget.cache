@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H0d/M2mmu/0=",
+  "dgSpecHash": "z1YS2RrZCI4=",
   "success": true,
-  "projectFilePath": "D:\\projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj",
+  "projectFilePath": "C:\\Users\\juerg\\Documents\\GitHub\\belada-game\\BeladaGameFrontend\\BeladaGameFrontend.Client\\BeladaGameFrontend.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juerg\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.5\\microsoft.aspnetcore.authorization.8.0.5.nupkg.sha512",
     "C:\\Users\\juerg\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.5\\microsoft.aspnetcore.components.8.0.5.nupkg.sha512",
