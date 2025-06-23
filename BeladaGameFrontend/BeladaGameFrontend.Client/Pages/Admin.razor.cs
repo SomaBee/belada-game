@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using Microsoft.AspNetCore.Components;
 using ShardTypes;
 
@@ -14,7 +13,7 @@ public partial class Admin : ComponentBase
 
     private async Task StartNewGame()
     {
-        var response = await Http.GetAsync("/startgame");
+        await Http.GetAsync("/startgame");
     }
 
     private List<Player>? Players { get; set; }

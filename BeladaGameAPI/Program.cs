@@ -69,15 +69,15 @@ app.MapPost("/playcard", async (GameStateService gameStateService, [FromBody] Pl
 });
 
 app.MapGet("/mystate/{name}", (GameStateService gameStateService, string name) => Task.FromResult(TypedResults.Ok(gameStateService.GetPlayerState(name))));
-app.MapGet("takedrink/{name}", (GameStateService gameStateService, string name) =>
+app.MapGet("takedrink/{name}", async (GameStateService gameStateService, string name) =>
 {
-    gameStateService.PlayerDrank(name);
+    await gameStateService.PlayerDrank(name);
     return Results.Ok();
 });
 
-app.MapGet("/bonusrundenow", (GameStateService gameStateService) =>
+app.MapGet("/bonusrundenow", async (GameStateService gameStateService) =>
 {
-    gameStateService.BonusRunde();
+    await gameStateService.BonusRunde();
     return Results.Ok();
 });
 

@@ -8,11 +8,11 @@ namespace BeladaGameFrontend.Client.Pages;
 public partial class Home
 {
    private HubConnection? _hubConnection;
-   private readonly List<string> _messages = new();
+   private readonly List<string> _messages = [];
    private bool _loading = true;
-   private bool _ingame = false;
-   
-   Player player = new Player();
+   private bool _ingame;
+
+   private Player _player = new();
 
    public List<Player>? Players { get; set; } = new();
 
@@ -29,12 +29,12 @@ public partial class Home
          _messages.Add(message);
          InvokeAsync(StateHasChanged);
       });
-      _hubConnection.On<string>("PlayerAdded", async name =>
+      _hubConnection.On<string>("PlayerAdded", async _ =>
       {
          Players = await Http.GetFromJsonAsync<List<Player>>("/players");
          await InvokeAsync(StateHasChanged);
       });
-      _hubConnection.On<string>("PlayerRemoved", async name =>
+      _hubConnection.On<string>("PlayerRemoved", async _ =>
       {
          Players = await Http.GetFromJsonAsync<List<Player>>("/players");
          await InvokeAsync(StateHasChanged);
@@ -56,24 +56,24 @@ public partial class Home
 
    private async Task EnterGame()
    {
-      var response = await Http.PostAsync("/addplayer", new StringContent($"\"{Name}\"", Encoding.UTF8, "application/json"));
+      await Http.PostAsync("/addplayer", new StringContent($"\"{Name}\"", Encoding.UTF8, "application/json"));
       Players = await Http.GetFromJsonAsync<List<Player>>("/players");
-      player = Players?.FirstOrDefault(x => x.Name == Name) ?? new Player(); 
+      _player = Players?.FirstOrDefault(x => x.Name == Name) ?? new Player(); 
       _ingame = true;
    }
 
    private async Task LeaveGame()
    {
-      if (player.Name != "")
+      if (_player.Name != "")
       {
-         await Http.PostAsync("/removeplayer", new StringContent($"\"{player.Name}\"", Encoding.UTF8, "application/json"));
+         await Http.PostAsync("/removeplayer", new StringContent($"\"{_player.Name}\"", Encoding.UTF8, "application/json"));
       }
       _ingame = false;
    }
 
    private void SetPlayer(string? playerName)
    {
-      player = Players?.FirstOrDefault(x => x.Name == playerName) ?? new Player();
+      _player = Players?.FirstOrDefault(x => x.Name == playerName) ?? new Player();
       _ingame = true;
    }
 }

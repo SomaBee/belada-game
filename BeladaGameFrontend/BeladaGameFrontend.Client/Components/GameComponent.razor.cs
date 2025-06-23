@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
-using Microsoft.JSInterop;
 using ShardTypes;
 
 namespace BeladaGameFrontend.Client.Components;
@@ -15,16 +13,14 @@ public partial class GameComponent
     public Player? Player { get; set; }
 
     private HubConnection HubConnection { get; set; } = null!;
-    
-    private List<string> _messages = new();
-    
-    private List<Card> _myHand = new();
-    
-    private Card? _currentCard = null!;
 
-    private Player? _currentPlayer = null!;
+    private readonly List<Card> _myHand = new();
     
-    private bool _myTurn = false;
+    private Card? _currentCard;
+
+    private Player? _currentPlayer;
+    
+    private bool _myTurn;
     private bool _hasDrawn;
     private bool _gameOver;
     private bool _bonusrunde;
@@ -36,42 +32,42 @@ public partial class GameComponent
             .WithUrl($"{BaseAddress.Address}/gamehub")
             .Build();
         
-        HubConnection?.On<string>("PlayerAdded", async name => { await PlayerAdded(name); });
+        HubConnection.On<string>("PlayerAdded", async name => { await PlayerAdded(name); });
         
-        HubConnection?.On<string>("PlayerRemoved", async _ => { await PlayerRemoved(); });
+        HubConnection.On<string>("PlayerRemoved", async _ => { await PlayerRemoved(); });
         
-        HubConnection?.On("GameOver", () => _gameOver = true);
+        HubConnection.On("GameOver", () => _gameOver = true);
         
-        HubConnection?.On("BonusRunde", async () =>
+        HubConnection.On("BonusRunde", async () =>
         {
             await BonusRunde();
         });
         
-        HubConnection?.On<Card?>("CardDrawn", async currentCard => { await CardDrawn(currentCard); });
+        HubConnection.On<Card?>("CardDrawn", async currentCard => { await CardDrawn(currentCard); });
         
-        HubConnection?.On<List<Card>>("CurrentPlayerEffects", async cards => { await UpdatePlayersEffects(cards); });
+        HubConnection.On<List<Card>>("CurrentPlayerEffects", async cards => { await UpdatePlayersEffects(cards); });
         
-        HubConnection?.On<string>("NextPlayer", async name => { await NextPlayer(name); });
+        HubConnection.On<string>("NextPlayer", async name => { await NextPlayer(name); });
         
-        HubConnection?.On<Tuple<Player,Card>>("CardPlayed", async tuple =>
+        HubConnection.On<Tuple<Player,Card>>("CardPlayed", async _ =>
         {
-            await CardPlayed(tuple);
+            await CardPlayed();
         });
-        HubConnection?.On<Player>("PlayerDrank", async player =>
+        HubConnection.On<Player>("PlayerDrank", async _ =>
         {
-            await UpdatePlayerDrinks(player);
+            await UpdatePlayerDrinks();
         });
         
         Players = await Http.GetFromJsonAsync<List<Player>>("/players");
         
-        await HubConnection?.StartAsync()!;
+        await HubConnection.StartAsync();
 
         await Http.PostAsync("/enteredgame", null);
         
         await base.OnInitializedAsync();
     }
 
-    private async Task UpdatePlayerDrinks(Player player)
+    private async Task UpdatePlayerDrinks()
     {
         if (Player?.Name == _currentPlayer?.Name)
         {
@@ -86,7 +82,7 @@ public partial class GameComponent
         await InvokeAsync(StateHasChanged);
     }
 
-    private async Task PlayerRemoved()
+    private Task PlayerRemoved()
     {
         throw new NotImplementedException();
     }
@@ -97,9 +93,9 @@ public partial class GameComponent
         await InvokeAsync(StateHasChanged);
     }
 
-    private async Task CardPlayed(Tuple<Player,Card> tuple)
+    private Task CardPlayed()
     {
-        
+        return Task.CompletedTask;
     }
 
     private async Task PlayerAdded(string name)
@@ -118,14 +114,14 @@ public partial class GameComponent
 
         if (_myTurn)
         {
-            if(currentCard.Type == CardType.Effect)
+            if(currentCard is { Type: CardType.Effect })
             {
                 _myHand.Add(currentCard);
             }
 
-            if (currentCard.Type == CardType.Trap)
+            if (currentCard is { Type: CardType.Trap })
             {
-                _myHand.Add(_currentCard);
+                if (_currentCard != null) _myHand.Add(_currentCard);
             }
         }
 
@@ -141,11 +137,11 @@ public partial class GameComponent
         await InvokeAsync(StateHasChanged);
     }
 
-    public List<Player>? Players { get; set; }
+    private List<Player>? Players { get; set; }
 
     private async Task NextPlayer(string name)
     {
-        _currentPlayer = (await Http.GetFromJsonAsync<List<Player>>("/players") ?? new List<Player>()).FirstOrDefault(x=>x.Name == name);
+        _currentPlayer = (await Http.GetFromJsonAsync<List<Player>>("/players") ?? []).FirstOrDefault(x=>x.Name == name);
         _myTurn = _currentPlayer?.Name == Player?.Name;
 
         if (_myTurn)
@@ -158,7 +154,7 @@ public partial class GameComponent
                 }
                 
             }
-            _myHand.RemoveAll(x=> x.Duration <= 0 && x.Type == CardType.Effect);
+            _myHand.RemoveAll(x=> x is { Duration: <= 0, Type: CardType.Effect });
         }
         
         await InvokeAsync(StateHasChanged);

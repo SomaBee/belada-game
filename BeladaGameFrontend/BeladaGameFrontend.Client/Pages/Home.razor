@@ -17,15 +17,18 @@
 
         <h1 class="text-center mt-4" style="color: white;">Current players:</h1>
         <ul class="list-group">
-            @foreach (var player in Players)
+            @if (Players != null)
             {
-                <li class="list-group-item" @onclick="@(()=>SetPlayer(player.Name))">@player.Name</li>
+                foreach (var player in Players)
+                {
+                    <li class="list-group-item" @onclick="@(()=>SetPlayer(player.Name))">@player.Name</li>
+                }
             }
         </ul>
     }
     else
     {
-        <GameComponent Player="player"/>
+        <GameComponent Player="_player"/>
         <div class="d-flex justify-content-center mt-3">
             <button class="btn btn-danger" @onclick="LeaveGame">Leave Game</button>
         </div>
