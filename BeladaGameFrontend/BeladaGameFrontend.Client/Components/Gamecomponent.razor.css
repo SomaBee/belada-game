@@ -1,0 +1,66 @@
+﻿.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+}
+.center-content button {
+    margin-top: 20px;
+}
+
+.card * {
+    border: none;
+}
+
+.card-body {
+    border: none;
+    background-color: orangered ;
+}
+.container {
+    border: none;
+}
+
+.hand-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hand-section .card {
+    width: 200px;
+    margin: 10px;
+}
+
+.effect-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.effect-section .card-description {
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-box .effect-description {
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+}

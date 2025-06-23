@@ -1,0 +1,78 @@
+#blazor-error-ui[b-ppq1cu4lgo] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-ppq1cu4lgo] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+:root[b-ppq1cu4lgo] {
+    --dark-cyan: #119da4ff;
+    --cerulean: #0c7489ff;
+    --midnight-green: #13505bff;
+    --black: #040404ff;
+    --timberwolf: #d7d9ceff;
+}
+
+body[b-ppq1cu4lgo] {
+    background-image: url("images/novagamebg.jpg");
+    color: var(--black);
+}
+
+.container[b-ppq1cu4lgo] {
+    background-color: var(--cerulean);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card[b-ppq1cu4lgo] {
+    background: var(--midnight-green);
+    border-color: var(--cerulean);
+    color: white;
+}
+
+.card-body[b-ppq1cu4lgo] {
+    background: var(--midnight-green);
+    border-color: var(--cerulean);
+    color: white;
+}
+.card-text[b-ppq1cu4lgo] {
+    color: white;
+}
+
+.card-title[b-ppq1cu4lgo] {
+    color: white;
+}
+
+.btn-primary[b-ppq1cu4lgo] {
+    background-color: var(--midnight-green);
+    border-color: var(--midnight-green);
+    color: white;
+}
+
+.btn-success[b-ppq1cu4lgo] {
+    background-color: var(--cerulean);
+    border-color: var(--cerulean);
+    color: white;
+}
+
+.btn-danger[b-ppq1cu4lgo] {
+    background-color: var(--black);
+    border-color: var(--black);
+    color: white;
+}
+
+.list-group-item[b-ppq1cu4lgo] {
+    border-color: var(--cerulean);
+    color: white;
+}

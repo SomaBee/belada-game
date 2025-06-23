@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card1.png",
+      "PackagePath": "staticwebassets\\images\\card1.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card10.png",
+      "PackagePath": "staticwebassets\\images\\card10.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card11.png",
+      "PackagePath": "staticwebassets\\images\\card11.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card12.png",
+      "PackagePath": "staticwebassets\\images\\card12.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card13.png",
+      "PackagePath": "staticwebassets\\images\\card13.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card14.png",
+      "PackagePath": "staticwebassets\\images\\card14.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card15.png",
+      "PackagePath": "staticwebassets\\images\\card15.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card16.png",
+      "PackagePath": "staticwebassets\\images\\card16.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card17.png",
+      "PackagePath": "staticwebassets\\images\\card17.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card18.png",
+      "PackagePath": "staticwebassets\\images\\card18.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card19.png",
+      "PackagePath": "staticwebassets\\images\\card19.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card2.png",
+      "PackagePath": "staticwebassets\\images\\card2.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card20.png",
+      "PackagePath": "staticwebassets\\images\\card20.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card21.png",
+      "PackagePath": "staticwebassets\\images\\card21.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card22.png",
+      "PackagePath": "staticwebassets\\images\\card22.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card23.png",
+      "PackagePath": "staticwebassets\\images\\card23.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card24.png",
+      "PackagePath": "staticwebassets\\images\\card24.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card25.png",
+      "PackagePath": "staticwebassets\\images\\card25.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card26.png",
+      "PackagePath": "staticwebassets\\images\\card26.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card27.png",
+      "PackagePath": "staticwebassets\\images\\card27.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card28.png",
+      "PackagePath": "staticwebassets\\images\\card28.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card29.png",
+      "PackagePath": "staticwebassets\\images\\card29.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card3.png",
+      "PackagePath": "staticwebassets\\images\\card3.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card30.png",
+      "PackagePath": "staticwebassets\\images\\card30.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card31.png",
+      "PackagePath": "staticwebassets\\images\\card31.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card32.png",
+      "PackagePath": "staticwebassets\\images\\card32.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card33.png",
+      "PackagePath": "staticwebassets\\images\\card33.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card34.png",
+      "PackagePath": "staticwebassets\\images\\card34.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card35.png",
+      "PackagePath": "staticwebassets\\images\\card35.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card36.png",
+      "PackagePath": "staticwebassets\\images\\card36.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card37.png",
+      "PackagePath": "staticwebassets\\images\\card37.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card38.png",
+      "PackagePath": "staticwebassets\\images\\card38.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card39.png",
+      "PackagePath": "staticwebassets\\images\\card39.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card4.png",
+      "PackagePath": "staticwebassets\\images\\card4.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card40.png",
+      "PackagePath": "staticwebassets\\images\\card40.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card41.png",
+      "PackagePath": "staticwebassets\\images\\card41.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card42.png",
+      "PackagePath": "staticwebassets\\images\\card42.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card43.png",
+      "PackagePath": "staticwebassets\\images\\card43.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card44.png",
+      "PackagePath": "staticwebassets\\images\\card44.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card45.png",
+      "PackagePath": "staticwebassets\\images\\card45.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card46.png",
+      "PackagePath": "staticwebassets\\images\\card46.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card47.png",
+      "PackagePath": "staticwebassets\\images\\card47.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card48.png",
+      "PackagePath": "staticwebassets\\images\\card48.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card49.png",
+      "PackagePath": "staticwebassets\\images\\card49.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card5.png",
+      "PackagePath": "staticwebassets\\images\\card5.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card50.png",
+      "PackagePath": "staticwebassets\\images\\card50.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card51.png",
+      "PackagePath": "staticwebassets\\images\\card51.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card52.png",
+      "PackagePath": "staticwebassets\\images\\card52.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card53.png",
+      "PackagePath": "staticwebassets\\images\\card53.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card54.png",
+      "PackagePath": "staticwebassets\\images\\card54.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card55.png",
+      "PackagePath": "staticwebassets\\images\\card55.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card56.png",
+      "PackagePath": "staticwebassets\\images\\card56.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card57.png",
+      "PackagePath": "staticwebassets\\images\\card57.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card58.png",
+      "PackagePath": "staticwebassets\\images\\card58.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card59.png",
+      "PackagePath": "staticwebassets\\images\\card59.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card6.png",
+      "PackagePath": "staticwebassets\\images\\card6.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card60.png",
+      "PackagePath": "staticwebassets\\images\\card60.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card61.png",
+      "PackagePath": "staticwebassets\\images\\card61.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card62.png",
+      "PackagePath": "staticwebassets\\images\\card62.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card63.png",
+      "PackagePath": "staticwebassets\\images\\card63.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card64.png",
+      "PackagePath": "staticwebassets\\images\\card64.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card65.png",
+      "PackagePath": "staticwebassets\\images\\card65.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card66.png",
+      "PackagePath": "staticwebassets\\images\\card66.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card67.png",
+      "PackagePath": "staticwebassets\\images\\card67.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card68.png",
+      "PackagePath": "staticwebassets\\images\\card68.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card69.png",
+      "PackagePath": "staticwebassets\\images\\card69.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card7.png",
+      "PackagePath": "staticwebassets\\images\\card7.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card70.png",
+      "PackagePath": "staticwebassets\\images\\card70.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card71.png",
+      "PackagePath": "staticwebassets\\images\\card71.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card72.png",
+      "PackagePath": "staticwebassets\\images\\card72.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card73.png",
+      "PackagePath": "staticwebassets\\images\\card73.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card74.png",
+      "PackagePath": "staticwebassets\\images\\card74.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card75.png",
+      "PackagePath": "staticwebassets\\images\\card75.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card76.png",
+      "PackagePath": "staticwebassets\\images\\card76.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card77.png",
+      "PackagePath": "staticwebassets\\images\\card77.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card78.png",
+      "PackagePath": "staticwebassets\\images\\card78.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card79.png",
+      "PackagePath": "staticwebassets\\images\\card79.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card8.png",
+      "PackagePath": "staticwebassets\\images\\card8.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card80.png",
+      "PackagePath": "staticwebassets\\images\\card80.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card81.png",
+      "PackagePath": "staticwebassets\\images\\card81.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card82.png",
+      "PackagePath": "staticwebassets\\images\\card82.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card83.png",
+      "PackagePath": "staticwebassets\\images\\card83.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card84.png",
+      "PackagePath": "staticwebassets\\images\\card84.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card85.png",
+      "PackagePath": "staticwebassets\\images\\card85.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card86.png",
+      "PackagePath": "staticwebassets\\images\\card86.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card87.png",
+      "PackagePath": "staticwebassets\\images\\card87.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card88.png",
+      "PackagePath": "staticwebassets\\images\\card88.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card89.png",
+      "PackagePath": "staticwebassets\\images\\card89.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card9.png",
+      "PackagePath": "staticwebassets\\images\\card9.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card90.png",
+      "PackagePath": "staticwebassets\\images\\card90.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card91.png",
+      "PackagePath": "staticwebassets\\images\\card91.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card92.png",
+      "PackagePath": "staticwebassets\\images\\card92.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card93.png",
+      "PackagePath": "staticwebassets\\images\\card93.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card94.png",
+      "PackagePath": "staticwebassets\\images\\card94.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card95.png",
+      "PackagePath": "staticwebassets\\images\\card95.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\card96.png",
+      "PackagePath": "staticwebassets\\images\\card96.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\emergencylight.gif",
+      "PackagePath": "staticwebassets\\images\\emergencylight.gif"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\end.png",
+      "PackagePath": "staticwebassets\\images\\end.png"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend\\wwwroot\\images\\novagamebg.jpg",
+      "PackagePath": "staticwebassets\\images\\novagamebg.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BeladaGameFrontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BeladaGameFrontend.props",
+      "PackagePath": "build\\BeladaGameFrontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BeladaGameFrontend.props",
+      "PackagePath": "buildMultiTargeting\\BeladaGameFrontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BeladaGameFrontend.props",
+      "PackagePath": "buildTransitive\\BeladaGameFrontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,66 @@
+.center-content[b-rt7iraotb5] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered[b-rt7iraotb5] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Adjust as needed */
+}
+.center-content button[b-rt7iraotb5] {
+    margin-top: 20px;
+}
+
+.card *[b-rt7iraotb5] {
+    border: none;
+}
+
+.card-body[b-rt7iraotb5] {
+    border: none;
+    background-color: orangered ;
+}
+.container[b-rt7iraotb5] {
+    border: none;
+}
+
+.hand-section[b-rt7iraotb5] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hand-section .card[b-rt7iraotb5] {
+    width: 200px;
+    margin: 10px;
+}
+
+.effect-section[b-rt7iraotb5] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.effect-section .card-description[b-rt7iraotb5] {
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.info-box[b-rt7iraotb5] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info-box .effect-description[b-rt7iraotb5] {
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+}

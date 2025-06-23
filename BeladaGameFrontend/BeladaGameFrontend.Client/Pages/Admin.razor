@@ -1,0 +1,15 @@
+﻿@page "/Admin"
+@using ShardTypes
+@inject HttpClient Http
+<h3>Admin</h3>
+
+<button @onclick="StartNewGame">Start Game</button>
+
+<button @onclick="TriggerBonusRunde">Bonusrunde now!</button>
+
+<ul>
+    @foreach (var player in Players ?? [])
+    {
+        <li>@player.Name</li>
+    }
+</ul>

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\obj\\Debug\\net8.0\\compressed\\psisrz2a9y.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "E:\\Projects\\BeladaGame\\BeladaGameFrontend\\BeladaGameFrontend.Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BeladaGameFrontend.Client.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BeladaGameFrontend.Client.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BeladaGameFrontend.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BeladaGameFrontend.Client.props",
+      "PackagePath": "build\\BeladaGameFrontend.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BeladaGameFrontend.Client.props",
+      "PackagePath": "buildMultiTargeting\\BeladaGameFrontend.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BeladaGameFrontend.Client.props",
+      "PackagePath": "buildTransitive\\BeladaGameFrontend.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Blazor.Bootstrap" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.6" />
+        <ProjectReference Include="..\..\BeladaGameAPI\BeladaGameAPI.csproj" />
+        <ProjectReference Include="..\BeladaGameFrontend.Client\BeladaGameFrontend.Client.csproj"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.5"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\images\card1.png" />
+      <None Include="wwwroot\images\card10.png" />
+      <None Include="wwwroot\images\card11.png" />
+      <None Include="wwwroot\images\card12.png" />
+      <None Include="wwwroot\images\card13.png" />
+      <None Include="wwwroot\images\card14.png" />
+      <None Include="wwwroot\images\card15.png" />
+      <None Include="wwwroot\images\card16.png" />
+      <None Include="wwwroot\images\card17.png" />
+      <None Include="wwwroot\images\card18.png" />
+      <None Include="wwwroot\images\card19.png" />
+      <None Include="wwwroot\images\card2.png" />
+      <None Include="wwwroot\images\card20.png" />
+      <None Include="wwwroot\images\card21.png" />
+      <None Include="wwwroot\images\card22.png" />
+      <None Include="wwwroot\images\card23.png" />
+      <None Include="wwwroot\images\card24.png" />
+      <None Include="wwwroot\images\card25.png" />
+      <None Include="wwwroot\images\card26.png" />
+      <None Include="wwwroot\images\card27.png" />
+      <None Include="wwwroot\images\card28.png" />
+      <None Include="wwwroot\images\card29.png" />
+      <None Include="wwwroot\images\card3.png" />
+      <None Include="wwwroot\images\card30.png" />
+      <None Include="wwwroot\images\card31.png" />
+      <None Include="wwwroot\images\card32.png" />
+      <None Include="wwwroot\images\card33.png" />
+      <None Include="wwwroot\images\card34.png" />
+      <None Include="wwwroot\images\card35.png" />
+      <None Include="wwwroot\images\card36.png" />
+      <None Include="wwwroot\images\card37.png" />
+      <None Include="wwwroot\images\card38.png" />
+      <None Include="wwwroot\images\card39.png" />
+      <None Include="wwwroot\images\card4.png" />
+      <None Include="wwwroot\images\card40.png" />
+      <None Include="wwwroot\images\card41.png" />
+      <None Include="wwwroot\images\card42.png" />
+      <None Include="wwwroot\images\card43.png" />
+      <None Include="wwwroot\images\card44.png" />
+      <None Include="wwwroot\images\card5.png" />
+      <None Include="wwwroot\images\card6.png" />
+      <None Include="wwwroot\images\card7.png" />
+      <None Include="wwwroot\images\card8.png" />
+      <None Include="wwwroot\images\card9.png" />
+      <None Include="wwwroot\images\end.png" />
+    </ItemGroup>
+
+</Project>

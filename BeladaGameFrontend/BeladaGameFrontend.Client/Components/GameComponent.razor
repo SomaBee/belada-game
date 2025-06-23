@@ -1,0 +1,118 @@
+﻿@using ShardTypes
+@inject HttpClient Http
+@inject IJSRuntime JSRuntime
+
+<div class="container">
+    @if (_bonusrunde)
+    {
+        <div class="emergency-light centered" style="display: flex; flex-direction: column;">
+            <!-- Add your emergency light here. For example, you can use an image: -->
+            <img src="images/emergencylight.gif" alt="Emergency Light"/>
+            <div>
+                <h1>Bonusrunde!</h1>
+            </div>
+            <div>
+                <h2>Everybody drinks</h2>
+            </div>
+        </div>
+    }
+    else if (!_gameOver)
+    {
+        <div class="card my-3">
+            <div class="card-body">
+
+                <p class="card-text text-center">
+                    Current turn: @_currentPlayer?.Name
+                </p>
+                <p class="card-text text-center">
+                    @_currentPlayer?.Name drank this many times: @_currentPlayer?.NumberOfDrinksDone
+                </p>
+                <p class="card-text text-center">Number of players: @GetPlayerNumber()</p>
+                <div class="info-box">
+                    @if (_currentPlayerEffects.Count > 0)
+                    {
+                        <h5 style="color: white">Effects of @_currentPlayer?.Name</h5>
+
+                        @foreach (var effect in _currentPlayerEffects)
+                        {
+                            <p class="effect-description">@effect.Description</p>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img class="img-fluid" style="max-height: 600px; max-width: 80%" src="@GetImagePath()"/>
+        </div>
+
+        @if (_myTurn)
+        {
+            <div class="d-flex justify-content-center my-3">
+                @if (!_hasDrawn)
+                {
+                    <div>
+                        <button class="btn btn-primary" style="margin: 5px" @onclick="DrawCard">Draw Card</button>
+                    </div>
+                }
+                else
+                {
+                    <div>
+                        <button class="btn btn-success" style="margin: 5px" @onclick="FinishTurn">Finish Turn</button>
+                    </div>
+                }
+                <div>
+                    <button class="btn btn-primary" style="margin: 5px" @onclick="PlayerDrank">I Drank</button>
+                </div>
+            </div>
+        }
+
+        <div class="effect-section" style="background-color:orangered; color: white; ">
+            @foreach (var card in _myHand.Where(card => card.Type == CardType.Effect))
+            {
+                <p class="card-description">@card.Description</p>
+            }
+        </div>
+
+        <div class="hand-section">
+            @foreach (var card in _myHand.Where(card => card.Type == CardType.Trap))
+            {
+                <div class="card">
+                    <img src="@($"images/{card.ImageName}")" alt="@card.Name"/>
+                    <div class="card-body">
+                        <p class="card-text">@card.Description</p>
+                    </div>
+                    <button class="btn btn-primary" @onclick="@(() => PlayCard(card))">Play Card</button>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="d-flex justify-content-center">
+            <img class="img-fluid" src="images/end.png"/>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">Player</th>
+                    <th scope="col">Drinks they had</th>
+                </tr>
+                </thead>
+                <tbody>
+                @if (Players != null)
+                {
+                    foreach (var player in Players)
+                    {
+                        <tr>
+                            <td>@player.Name</td>
+                            <td>@player.NumberOfDrinksDone</td>
+                        </tr>
+                    }
+                }
+                </tbody>
+            </table>
+
+        </div>
+    }
+
+
+</div>

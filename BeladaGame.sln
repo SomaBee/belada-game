@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeladaGameAPI", "BeladaGameAPI\BeladaGameAPI.csproj", "{D80414FD-F92F-4DE5-B20F-2DC484D6F188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeladaGameFrontend", "BeladaGameFrontend\BeladaGameFrontend\BeladaGameFrontend.csproj", "{6AE3968B-81B1-4E8F-A7EB-C8E3F37A1891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeladaGameFrontend.Client", "BeladaGameFrontend\BeladaGameFrontend.Client\BeladaGameFrontend.Client.csproj", "{2D61151B-4B87-44AF-8FAD-39A85080B473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShardTypes", "ShardTypes\ShardTypes.csproj", "{66F5AEB0-EEEB-4339-A9AB-C599C863F9DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80414FD-F92F-4DE5-B20F-2DC484D6F188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80414FD-F92F-4DE5-B20F-2DC484D6F188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80414FD-F92F-4DE5-B20F-2DC484D6F188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80414FD-F92F-4DE5-B20F-2DC484D6F188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE3968B-81B1-4E8F-A7EB-C8E3F37A1891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE3968B-81B1-4E8F-A7EB-C8E3F37A1891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE3968B-81B1-4E8F-A7EB-C8E3F37A1891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE3968B-81B1-4E8F-A7EB-C8E3F37A1891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D61151B-4B87-44AF-8FAD-39A85080B473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D61151B-4B87-44AF-8FAD-39A85080B473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D61151B-4B87-44AF-8FAD-39A85080B473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D61151B-4B87-44AF-8FAD-39A85080B473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F5AEB0-EEEB-4339-A9AB-C599C863F9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F5AEB0-EEEB-4339-A9AB-C599C863F9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F5AEB0-EEEB-4339-A9AB-C599C863F9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F5AEB0-EEEB-4339-A9AB-C599C863F9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
